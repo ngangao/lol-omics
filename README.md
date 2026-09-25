@@ -1,6 +1,6 @@
 # LOL — Latent Omics Learning
 
-[![tests](https://img.shields.io/badge/tests-pytest-informational)](https://github.com/martinnganga/lol/actions)
+[![tests](https://img.shields.io/badge/tests-pytest-informational)](https://github.com/ngangao/lol-omics/actions)
 [![license](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![python](https://img.shields.io/badge/python-3.10%2B-blue)](pyproject.toml)
 
