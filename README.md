@@ -13,7 +13,7 @@ GEO accession / local matrix  →  normalize  →  select variable genes
 
 ## What this is (and isn't)
 
-LOL is a **reproducibility and accessibility tool**, not a new machine learning method. Latent representation learning on gene expression data — PCA and VAE-based — is well established; see [Way & Greene 2018 ("Tybalt")](https://doi.org/10.1101/174474) for the foundational VAE approach this package's VAE module is inspired by, and [Way et al. 2020](https://doi.org/10.1186/s13059-020-02021-3) for why latent dimensionality shouldn't be fixed to a single choice. What LOL adds is a small, well-documented, laptop-friendly pipeline that goes from a **GEO accession straight through to a cross-validated phenotype predictor**, with both a linear (PCA) and non-linear (VAE) latent method available side by side so you can see which one actually helps on *your* dataset rather than assuming one is better.
+LOL is a **reproducibility and accessibility tool**, not a new machine learning method. Latent representation learning on gene expression data (PCA and VAE-based) is well established. See [Way & Greene 2018 ("Tybalt")](https://doi.org/10.1101/174474) for the foundational VAE approach this package's VAE module is inspired by, and [Way et al. 2020](https://doi.org/10.1186/s13059-020-02021-3) for why latent dimensionality shouldn't be fixed to a single choice. What LOL adds is a small, well-documented, laptop-friendly pipeline that goes from a **GEO accession straight through to a cross-validated phenotype predictor**, with both a linear (PCA) and non-linear (VAE) latent method available side by side so you can see which one actually helps on *your* dataset rather than assuming one is better.
 
 LOL deliberately does **not** target single-cell data. That's a much larger-scale, better-served niche (see [scvi-tools](https://scvi-tools.org/)); LOL stays in the bulk RNA-seq / microarray regime, where cohorts are small enough (tens to a few hundred samples) to train comfortably on a laptop with 8GB of RAM.
 
@@ -125,7 +125,7 @@ See [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 ## AI-assistance disclosure
 
-Portions of this codebase and documentation were drafted with AI assistance (Claude) and reviewed, tested, and modified by the author. See [`CONTRIBUTING.md`](CONTRIBUTING.md#ai-assistance) for specifics, kept up to date as the project develops — this note exists partly because JOSS review now expects clear, specific disclosure rather than a vague statement.
+Claude (Antropic) was used to assist in debugging errors in this codebase and and its documentation. Claude was also used to review logical errors. After this, all fixes were reviewed, tested, and modified by the author in line with GEO datasets and known biology.
 
 ## License
 
