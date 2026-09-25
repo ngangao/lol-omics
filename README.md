@@ -41,6 +41,7 @@ print(pipe.permutation_test())  # is that score distinguishable from chance?
 ```
 
 ```
+Here is an example of an output from a sample GEO dataset
 Accuracy: 0.912
 Macro-F1: 0.905
 ROC-AUC:  0.967
