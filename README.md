@@ -20,8 +20,8 @@ LOL deliberately does **not** target single-cell data. That's a much larger-scal
 ## Install
 
 ```bash
-pip install lol-omics            # core pipeline, local files only
-pip install lol-omics[fetch]     # + geofetch, for pulling GEO accessions directly
+pip install lol            # core pipeline, local files only
+pip install lol [fetch]     # + geofetch, for pulling GEO accessions directly
 ```
 
 ## Quickstart
