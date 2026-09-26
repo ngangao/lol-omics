@@ -81,8 +81,8 @@ investigating before trusting `evaluate()`.
 
 ## Validated on real data
 
-Six real GEO cohorts were run through LOL during development —
-spanning a strong positive result, a clean null, two cases where a
+Six real GEO cohorts were run through LOL during development. They include
+a strong positive result, a clean null, two cases where a
 confound (class imbalance, tissue-type mismatch, repeated samples per
 patient) had to be caught and controlled for, a multi-class cohort
 with an important label-circularity caveat, and a case where a real
