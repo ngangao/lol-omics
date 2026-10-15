@@ -116,7 +116,7 @@ Full docs (architecture, tutorials on real GEO series, API reference) live in [`
 ## Development
 
 ```bash
-git clone https://github.com/martinnganga/lol
+git clone https://github.com/ngangao/lol-omics
 cd lol
 pip install -e ".[dev]"
 pytest
